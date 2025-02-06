@@ -1,6 +1,6 @@
 val intent = Intent("com.dojo.action.TX_COMPLETE")
 intent.putExtra("com.dojo.extra.REFUND_STATUS, refundStatus: String)
-intent.putExtra("com.dojo.extra.TRANSACTION_RESULT", transactionResult: String/enum (SUCCESSFUL, DECLINED, CANCELLED, UNSUCCESSFUL))
+intent.putExtra("com.dojo.extra.TRANSACTION_RESULT", transactionResult: String (enum: SUCCESSFUL, DECLINED, CANCELLED, UNSUCCESSFUL))
 intent.putExtra("com.dojo.extra.TRANSACTION_ID", transactionId: String)
 intent.putExtra("com.dojo.extra.AUTH_CODE", authCode: String)
 intent.putExtra("com.dojo.extra.BASE_AMOUNT", baseAmount: Integer)
